@@ -3,33 +3,6 @@ body {
   margin: 0;
 }
 
-li {
-  cursor: pointer;
-  font-size: 30px;
-}
-
-.colorLi {
-  background-color: orange;
-}
-
-ol {
-  font-size: 40px;
-  background-color: rgb(205, 246, 246);
-}
-
-.trafficLightsWrapper {
-  display: flex;
-  justify-content: center;
-}
-.trafficLights {
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(29, 50, 43);
-}
-
 .circle {
   height: 100px;
   width: 100px;
@@ -48,7 +21,13 @@ ol {
   background-color: green;
 }
 
-.buttonTrafficLights {
+.random {
+  font-size: 50px;
+  width: 300px;
+  height: 200px;
+  background-color: aquamarine;
+}
+.button {
   font-size: 40px;
   background-color: rgb(75, 177, 255);
   border-radius: 20px;
