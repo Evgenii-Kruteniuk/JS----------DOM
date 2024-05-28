@@ -41,3 +41,5 @@ function greenColor() {
 /*Автоматическое моргание светофора с интервалос 1 сек*/
 
 // setInterval((outoClicker) => buttonTrafficLights.click(), 1000);
+
+//Тут произошли новые изменения
