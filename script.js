@@ -3,7 +3,7 @@ const allLi = document.querySelectorAll("li");
 
 ol.addEventListener("click", (e) => {
   if (e.target.closest("li")) {
-    allLi.forEach((el) => el.classList.remove("newColor"));
-    e.target.classList.add("newColor");
+    allLi.forEach((el) => el.classList.remove("colorLi"));
+    e.target.classList.add("colorLi");
   }
 });
