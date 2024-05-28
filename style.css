@@ -34,3 +34,39 @@ body {
   padding: 10px;
   margin: 20px;
 }
+
+ol {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.youRandom {
+  background-color: aquamarine;
+  height: 200px;
+  width: 800px;
+  margin: 0 auto;
+  border: 2px dotted;
+}
+
+.random1 {
+  height: 100px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.random2 {
+  height: 100px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
