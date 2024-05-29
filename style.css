@@ -42,6 +42,7 @@ ol {
 }
 
 li {
+  cursor: pointer;
   font-size: 25px;
   font-weight: 600;
 }
@@ -69,4 +70,7 @@ li {
   align-items: center;
   justify-content: center;
   font-size: 25px;
+}
+.red {
+  background-color: red;
 }

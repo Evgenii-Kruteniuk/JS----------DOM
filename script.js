@@ -18,6 +18,7 @@ const button = document.querySelector(".button");
 const random1 = document.querySelector(".random1");
 const random2 = document.querySelector(".random2");
 const allLi = document.querySelectorAll("li");
+const ol = document.querySelector("ol");
 const arr = [
   "Это цитата дня!",
   "Это самая лучшая цитата, которую я слышал",
@@ -34,6 +35,18 @@ const arr = [
 button.addEventListener("click", random);
 
 function random() {
+  allLi.forEach((el) => el.classList.remove("red"));
   random1.innerText = `${arr[Math.floor(Math.random() * 10)]}`;
-  random2.innerText = `${allLi[Math.floor(Math.random() * 10)].innerText}`;
+
+  let param = Math.floor(Math.random() * 10);
+  random2.innerText = `${allLi[param].innerText}`;
+  allLi[param].classList.add("red");
 }
+
+ol.addEventListener("click", (e) => {
+  if (e.target.closest("li")) {
+    allLi.forEach((el) => el.classList.remove("red"));
+    random2.innerText = e.target.innerText;
+    e.target.classList.add("red");
+  }
+});
