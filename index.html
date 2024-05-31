@@ -30,16 +30,19 @@
       </div>
       <select name="country" id="country">
         <option value="Azerot">Azerot</option>
-        <option value="Germany">Germany</option>
+        <option value="Germany" selected>Germany</option>
         <option value="Russia">Russia</option>
       </select>
       <p>You reviev:</p>
       <textarea name="reviev" id="reviev"></textarea>
       <div>
         <label
-          >Принимаю условия <input type="checkbox" name="adree" checked
+          >Принимаю условия
+          <input type="checkbox" name="agree" value="Принимаю условия" checked
         /></label>
-        <label>За орду!! <input type="checkbox" name="orde" /></label>
+        <label
+          >За орду!! <input type="checkbox" name="orde" value="За орду!!"
+        /></label>
       </div>
       <input type="submit" id="sendForm" />
     </form>

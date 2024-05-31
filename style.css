@@ -1,1 +1,10 @@
+body,
+input,
+select {
+  font-size: 35px;
+}
 
+#content {
+  font-size: 25px;
+  border: 2px double;
+}
